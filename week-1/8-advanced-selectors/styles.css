@@ -1,1 +1,16 @@
 /* Try different box model properties below */
+p:st-child(1) {
+  background: white;
+}
+
+div {
+  display: inline-block;
+  margin-bottom: 0%;
+}
+p:nth-child(2) {
+  font-size: 12px;
+  text-align: center;
+}
+li:last-child Selector {
+  box-shadow: 4px 4px 0 #dba944;
+}

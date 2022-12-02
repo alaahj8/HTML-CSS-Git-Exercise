@@ -1,1 +1,15 @@
 /* Add your own CSS code below */
+.container {
+  display: flex;
+}
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 65%;
+}
+.countries--second {
+  width: 60%;
+}
+.countries--third {
+  width: 60%;
+}

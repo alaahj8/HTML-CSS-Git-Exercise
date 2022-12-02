@@ -3,3 +3,7 @@
 }
 
 /* Add your own CSS code below */
+.countries {
+  order: inherit;
+  width: 60%;
+}
