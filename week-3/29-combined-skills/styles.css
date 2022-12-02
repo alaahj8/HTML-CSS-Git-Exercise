@@ -1,1 +1,23 @@
 /* Add your own CSS code below */
+.hero-title {
+  width: 992px;
+}
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (min-width: 767px) {
+  .main-nav {
+    display: flex;
+    margin-right: auto;
+  }
+}
+.main-article {
+  width: 50em;
+  display: flex;
+  align-content: center;
+}
+.p {
+  line-height: 1.8;
+}
